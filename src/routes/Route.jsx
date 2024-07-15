@@ -3,7 +3,7 @@ import Mainlayout from "../layouts/Mainlayout";
 import Home from "../pages/Home";
 
 
-createBrowserRouter([
+export const router = createBrowserRouter([
     {
         path : '/',
         element : <Mainlayout />,
@@ -12,9 +12,8 @@ createBrowserRouter([
             path: '/',
             element : <Home />
         },
-        
+
     ]
     }
 ])
 
-export default Route;
