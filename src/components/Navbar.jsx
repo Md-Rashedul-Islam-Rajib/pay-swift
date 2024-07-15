@@ -1,9 +1,9 @@
 
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/logo-nav.jpg'
+import logo from '../assets/logo-nav.png'
 const Navbar = () => {
     return (
-        <nav className='hidden md:grid text-white'>
+        <nav className='hidden md:grid text-white space-y-6 text-center'>
             <div>
                 <img src={logo} alt="" />
             </div>
