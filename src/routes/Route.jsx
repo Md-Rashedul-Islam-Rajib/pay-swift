@@ -7,6 +7,7 @@ import CashIn from "../pages/CashIn";
 import TransactionHistory from "../pages/TransactionHistory";
 import TransactionManagement from "../pages/TransactionManagement";
 import TransactionHistoryAgent from "../pages/TransactionHistoryAgent";
+import UserManagement from "../pages/UserManagement";
 
 
 export const router = createBrowserRouter([
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
         {
             path : '/transaction-history-agent',
             element : <TransactionHistoryAgent />
+        },
+        {
+            path : '/user-management',
+            element : <UserManagement />
         }
 
     ]
