@@ -10,6 +10,7 @@ import TransactionHistoryAgent from "../pages/TransactionHistoryAgent";
 import UserManagement from "../pages/UserManagement";
 import TransactionHistoryAdmin from "../pages/TransactionHistoryAdmin";
 import SignUp from "../pages/SignUp";
+import Login from "../pages/Login";
 
 
 export const router = createBrowserRouter([
@@ -56,6 +57,10 @@ export const router = createBrowserRouter([
         {
             path : '/signup',
             element : <SignUp />
+        },
+        {
+            path : '/login',
+            element : <Login />
         }
 
     ]
