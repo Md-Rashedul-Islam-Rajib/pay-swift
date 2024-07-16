@@ -7,7 +7,7 @@ const TransactionHistory = () => {
             <h1 className="font-bold text-2xl md:text-5xl text-center">Transaction History</h1>
             </div>
             <div>
-            <table className="w-full table-auto">
+            <table className="w-full table-auto mt-[5%]">
       <thead className="bg-gray-200">
         <tr>
           <th className="px-4 py-2">DATE & TIME</th>
