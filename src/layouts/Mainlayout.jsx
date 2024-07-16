@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import NavbarMobile from "../components/NavbarMobile";
 
 const Mainlayout = () => {
   return (
@@ -17,7 +18,7 @@ const Mainlayout = () => {
          {/* // ? navbar for mobile  */}
 
          <div className="md:hidden">
-            mobile navbar
+            <NavbarMobile />
 
          </div>
     </section>
