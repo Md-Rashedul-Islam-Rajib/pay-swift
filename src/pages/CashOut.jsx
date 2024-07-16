@@ -23,7 +23,9 @@ const CashOut = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
 
           <div className="max-w-[75%] mx-auto space-y-10 md:space-y-0">
-          <label className="input flex items-center gap-2 mb-2 md:mb-4">
+
+            <div>
+            <label className="input flex items-center gap-2 mb-2 md:mb-4">
             <input
               type="number"
               className="grow py-2 px-6 rounded-lg"
@@ -34,6 +36,8 @@ const CashOut = () => {
               <span className="text-red-600 text-sm">Agent Number is required</span>
             )}
           </label>
+            </div>
+          
 
           <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
             <input
