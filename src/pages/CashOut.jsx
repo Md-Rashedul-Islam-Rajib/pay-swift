@@ -60,8 +60,8 @@ const CashOut = () => {
           </label>
             </div>
           
-
-          <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
+            <div>
+            <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
             <input
               type="number"
               className="grow py-2 px-6 rounded-lg"
@@ -72,6 +72,8 @@ const CashOut = () => {
               <span className="text-red-600 text-sm">Pin is required</span>
             )}
           </label>
+            </div>
+          
 
             <div className="flex justify-center">
           <button className="btn bg-[#155263] text-white py-2 px-4 rounded-lg">Confirm</button>
