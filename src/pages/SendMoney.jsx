@@ -30,7 +30,7 @@ const SendMoney = () => {
               {...register("phone", { required: true })}
             />
             {errors.phone && (
-              <span className="text-red-600 text-sm">Email is required</span>
+              <span className="text-red-600 text-sm">Recipient number is required</span>
             )}
           </label>
 
