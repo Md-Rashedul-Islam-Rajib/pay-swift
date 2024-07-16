@@ -62,7 +62,7 @@ const SendMoney = () => {
               {...register("pin", { required: true })}
             />
             {errors.pin && (
-              <span className="text-red-600 text-sm">Email is required</span>
+              <span className="text-red-600 text-sm">Pin is required</span>
             )}
           </label>
 
