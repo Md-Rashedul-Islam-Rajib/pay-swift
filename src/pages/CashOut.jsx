@@ -27,11 +27,11 @@ const CashOut = () => {
             <input
               type="number"
               className="grow py-2 px-6 rounded-lg"
-              placeholder="Recipient Mobile No"
+              placeholder="Agent Mobile No"
               {...register("phone", { required: true })}
             />
             {errors.phone && (
-              <span className="text-red-600 text-sm">Email is required</span>
+              <span className="text-red-600 text-sm">Agent Number is required</span>
             )}
           </label>
 
