@@ -19,8 +19,10 @@ const Login = () => {
     return (
         <section className='grid grid-cols-1 md:grid-cols-2 bg-[#115263] h-full'>
             <div></div>
-            <div>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <div >
+            <form onSubmit={handleSubmit(onSubmit)}
+            className='bg-slate-400 p-8 rounded-lg'
+            >
                 <div>
                 <p className="mb-2">Email/Mobile No</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
@@ -38,8 +40,8 @@ const Login = () => {
                 </label>
                 </div>
                 
-
-                <p className="mb-2">Pin</p>
+                  <div>
+                  <p className="mb-2">Pin</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type={showPassword ? "text" : "password"}
@@ -60,6 +62,8 @@ const Login = () => {
                     </span>
                   )}
                 </label>
+                  </div>
+                
                   <div>
                 <button className="btn text-white bg-[#115263] px-4 py-2">
                   Log In
