@@ -38,8 +38,8 @@ const CashOut = () => {
           </label>
             </div>
           
-
-          <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
+            <div>
+            <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
             <input
             //   type={showPassword ? "text" : "password"}
               className="grow py-2 px-6 rounded-lg"
@@ -58,6 +58,8 @@ const CashOut = () => {
               <span className="text-red-600 text-sm">Amount is required</span>
             )}
           </label>
+            </div>
+          
 
           <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
             <input
