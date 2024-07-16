@@ -9,7 +9,7 @@ const TransactionHistory = () => {
             <div>
             <table className="w-full table-auto mt-[5%]">
       <thead className="bg-gray-200">
-        <tr>
+        <tr className='text-xs md:text-lg'>
           <th className="px-4 py-2">DATE & TIME</th>
           <th className="px-4 py-2">INVOICE NO.</th>
           <th className="px-4 py-2">TYPE</th>
@@ -17,7 +17,7 @@ const TransactionHistory = () => {
           <th className="px-4 py-2">AMOUNT</th>
         </tr>
       </thead>
-      <tbody className='text-center'>
+      <tbody className='text-center text-xs md:text-lg'>
         <tr>
           <td className="border px-4 py-2">12 Mar, 2021 21:12</td>
           <td className="border px-4 py-2">21031200001</td>
