@@ -1,16 +1,19 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
-const Login = () => {
-    
-    const CashIn = () => {
-        const {
-          register,
-          handleSubmit,
-          formState: { errors },
-        } = useForm();
+import { useForm } from 'react-hook-form';
 
-        const onSubmit = (data) => {
-            console.log(data);
+const Login = () => {
+
+    const [showPassword, setShowPassword] = useState(false);
+
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+      } = useForm();
+    
+      const onSubmit = (data) => {
+        console.log(data);
+      };
 
     return (
         <div>
