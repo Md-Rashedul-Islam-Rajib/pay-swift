@@ -3,6 +3,7 @@ import Mainlayout from "../layouts/Mainlayout";
 import Home from "../pages/Home";
 import SendMoney from "../pages/SendMoney";
 import CashOut from "../pages/CashOut";
+import CashIn from "../pages/CashIn";
 
 
 export const router = createBrowserRouter([
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
         {
             path : '/cash-out',
             element: <CashOut />
+        },
+        {
+            path: '/cash-in',
+            element : <CashIn />
         }
 
     ]
