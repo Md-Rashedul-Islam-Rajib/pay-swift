@@ -17,7 +17,8 @@ const Login = () => {
       };
 
     return (
-        <div>
+        <section>
+            <div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <p className="mb-2">Email</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
@@ -34,13 +35,13 @@ const Login = () => {
                   )}
                 </label>
 
-                <p className="mb-2">password</p>
+                <p className="mb-2">Pin</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type={showPassword ? "text" : "password"}
                     className="grow border-0"
                     placeholder="Password"
-                    {...register("password", { required: true })}
+                    {...register("pin", { required: true })}
                   />
                   <span
                     onClick={() => {
@@ -55,12 +56,14 @@ const Login = () => {
                     </span>
                   )}
                 </label>
-
-                <button className={`btn text-white bg-[#FEA116] w-full`}>
+                  <div>
+                <button className="btn text-white bg-[#115263] px-4 py-2">
                   Log In
                 </button>
+                  </div>
               </form>
         </div>
+        </section>
     );
 };
 
