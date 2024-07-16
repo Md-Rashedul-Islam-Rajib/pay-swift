@@ -21,7 +21,7 @@ const Login = () => {
             <div></div>
             <div>
             <form onSubmit={handleSubmit(onSubmit)}>
-
+                <div>
                 <p className="mb-2">Email/Mobile No</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
@@ -36,6 +36,8 @@ const Login = () => {
                     </span>
                   )}
                 </label>
+                </div>
+                
 
                 <p className="mb-2">Pin</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
