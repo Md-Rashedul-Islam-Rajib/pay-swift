@@ -19,7 +19,7 @@ const Mainlayout = () => {
 
          <div className="grid md:hidden">
             <NavbarMobile />
-
+            <Outlet />
          </div>
     </section>
   );
