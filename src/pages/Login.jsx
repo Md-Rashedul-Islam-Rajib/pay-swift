@@ -19,16 +19,16 @@ const Login = () => {
     return (
         <section className=' bg-[#115263] h-full'>
             
-            <div >
+            <div className='flex justify-center items-center h-full'>
             <form onSubmit={handleSubmit(onSubmit)}
-            className='bg-slate-400 p-8 rounded-lg'
+            className='bg-slate-400 p-8 rounded-lg text-white'
             >
                 <div>
                 <p className="mb-2">Email/Mobile No</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type="text"
-                    className="grow border-0"
+                    className="grow border-0 py-2 px-4 rounded-lg"
                     placeholder="Email"
                     {...register("email", { required: true })}
                   />
@@ -45,7 +45,7 @@ const Login = () => {
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type={showPassword ? "text" : "password"}
-                    className="grow border-0"
+                    className="grow border-0  py-2 px-4 rounded-lg"
                     placeholder="Password"
                     {...register("pin", { required: true })}
                   />
