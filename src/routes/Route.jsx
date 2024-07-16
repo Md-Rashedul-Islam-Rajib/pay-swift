@@ -8,6 +8,7 @@ import TransactionHistory from "../pages/TransactionHistory";
 import TransactionManagement from "../pages/TransactionManagement";
 import TransactionHistoryAgent from "../pages/TransactionHistoryAgent";
 import UserManagement from "../pages/UserManagement";
+import TransactionHistoryAdmin from "../pages/TransactionHistoryAdmin";
 
 
 export const router = createBrowserRouter([
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
         {
             path : '/user-management',
             element : <UserManagement />
+        },
+        {
+            path : '/transaction-history-admin',
+            element : <TransactionHistoryAdmin />
         }
 
     ]
