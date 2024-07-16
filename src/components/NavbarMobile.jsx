@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
-import { GiTakeMyMoney, GiPayMoney, GiReceiveMoney, GiCash } from 'react-icons/gi';
+import { GiTakeMyMoney, GiPayMoney, GiReceiveMoney, GiCash, GiMoneyStack } from 'react-icons/gi';
 import { FaMoneyBillTransfer } from 'react-icons/fa6';
 import logo from '../assets/logo-nav.png'
 
@@ -101,7 +101,7 @@ const NavbarMobile = () => {
             onClick={handleMenuItemClick}
             className="block px-4 py-2 text-white hover:bg-gray-200 flex items-center gap-2 justify-center"
           >
-            <FaMoneyBillTransfer /> <span>Transaction Management</span>
+            <GiMoneyStack /> <span>Transaction Management</span>
           </NavLink>
           <NavLink
             to="/transaction-history-agent"
