@@ -6,6 +6,7 @@ import CashOut from "../pages/CashOut";
 import CashIn from "../pages/CashIn";
 import TransactionHistory from "../pages/TransactionHistory";
 import TransactionManagement from "../pages/TransactionManagement";
+import TransactionHistoryAgent from "../pages/TransactionHistoryAgent";
 
 
 export const router = createBrowserRouter([
@@ -39,7 +40,7 @@ export const router = createBrowserRouter([
         },
         {
             path : '/transaction-history-agent',
-            element : 
+            element : <TransactionHistoryAgent />
         }
 
     ]
