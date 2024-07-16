@@ -14,6 +14,8 @@ const Navbar = () => {
             <NavLink to='/cash-in' ><p className='flex items-center gap-2 justify-center'><GiReceiveMoney /> <span> Cash In </span></p></NavLink>
             {/* <NavLink to='/balance-inquiry'><p className='flex items-center gap-2 justify-center'><GiCash /> <span> Balance Inquiry </span></p></NavLink> */}
             <NavLink to='/transaction-history' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
+            <NavLink to='/transaction-management' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction Management </span></p></NavLink>
+            <NavLink to='/transaction-history-agent' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
         </nav>
     );
 };
