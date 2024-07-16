@@ -28,7 +28,7 @@ const Login = () => {
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type="text"
-                    className="grow border-0 py-2 px-4 rounded-lg"
+                    className="grow border-0 text-black py-2 px-4 rounded-lg"
                     placeholder="Email"
                     {...register("email", { required: true })}
                   />
@@ -40,12 +40,12 @@ const Login = () => {
                 </label>
                 </div>
                 
-                  <div>
+                  <div className='relative'>
                   <p className="mb-2">Pin</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type={showPassword ? "text" : "password"}
-                    className="grow border-0  py-2 px-4 rounded-lg"
+                    className="grow border-0 text-black py-2 px-4 rounded-lg"
                     placeholder="Password"
                     {...register("pin", { required: true })}
                   />
@@ -53,6 +53,7 @@ const Login = () => {
                     onClick={() => {
                       setShowPassword(!showPassword);
                     }}
+                    className='absolute right-3 top-11 text-gray-400'
                   >
                     {showPassword ? <FaEyeSlash /> : <FaEye />}
                   </span>
@@ -65,7 +66,7 @@ const Login = () => {
                   </div>
                 
                   <div>
-                <button className="btn text-white bg-[#115263] px-4 py-2">
+                <button className="btn text-white bg-[#115263] px-4 py-2 rounded-lg">
                   Log In
                 </button>
                   </div>
