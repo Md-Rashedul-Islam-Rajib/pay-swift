@@ -15,14 +15,14 @@ const CashOut = () => {
 
     return (
         <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-[#ff9a3c]">
-      <div className="flex-col items-center text-center md:text-start text-white md:ml-[20%] md:space-y-12">
+      <div className="flex-col items-center pt-[30%] md:pt-0 text-center md:text-start text-white md:ml-[20%] space-y-4 md:space-y-12">
         <h1 className="font-bold text-3xl md:text-6xl">Lowest Cash <br /> Out Fee</h1>
         <p className="font-semibold  md:text-xl">Easy Cash Out With Only 1.5% Fee</p>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
 
-          <div className="max-w-[75%] mx-auto">
+          <div className="max-w-[75%] mx-auto space-y-10 md:space-y-0">
           <label className="input flex items-center gap-2 mb-2 md:mb-4">
             <input
               type="number"
