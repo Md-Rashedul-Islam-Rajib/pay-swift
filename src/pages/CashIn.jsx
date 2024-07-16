@@ -13,7 +13,7 @@ const CashIn = () => {
         console.log(data);
 
     return (
-        <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-primary">
+        <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-[#ff7e67]">
       <div className="flex-col items-center text-white md:ml-[20%] space-y-20">
         <h1 className="font-bold text-xl md:text-6xl">Send Money Easily</h1>
         <p className="font-semibold  md:text-xl">Easy Money Transfer to others</p>
