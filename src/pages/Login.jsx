@@ -17,11 +17,12 @@ const Login = () => {
       };
 
     return (
-        <section className='grid grid-cols-1 md:grid-cols-2'>
+        <section className='grid grid-cols-1 md:grid-cols-2 bg-[#115263] h-full'>
             <div></div>
             <div>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <p className="mb-2">Email</p>
+
+                <p className="mb-2">Email/Mobile No</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
                     type="text"
