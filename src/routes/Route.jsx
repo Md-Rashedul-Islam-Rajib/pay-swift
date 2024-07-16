@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import SendMoney from "../pages/SendMoney";
 import CashOut from "../pages/CashOut";
 import CashIn from "../pages/CashIn";
+import TransactionHistory from "../pages/TransactionHistory";
 
 
 export const router = createBrowserRouter([
@@ -24,8 +25,12 @@ export const router = createBrowserRouter([
             element: <CashOut />
         },
         {
-            path: '/cash-in',
+            path : '/cash-in',
             element : <CashIn />
+        },
+        {
+            path : '/transaction-history',
+            element : <TransactionHistory />
         }
 
     ]
