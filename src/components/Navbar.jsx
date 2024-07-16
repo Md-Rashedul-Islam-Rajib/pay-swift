@@ -12,7 +12,7 @@ const Navbar = () => {
             <NavLink to='/send-money' ><p className='flex items-center gap-2 justify-center'><GiTakeMyMoney /> <span> Send Money </span></p></NavLink>
             <NavLink to='/cash-out' ><p className='flex items-center gap-2 justify-center'><GiPayMoney /> <span> Cash Out </span></p></NavLink>
             <NavLink to='/cash-in' ><p className='flex items-center gap-2 justify-center'><GiReceiveMoney /> <span> Cash In </span></p></NavLink>
-            <NavLink to='/balance-inquiry'><p className='flex items-center gap-2 justify-center'><GiCash /> <span> Balance Inquiry </span></p></NavLink>
+            {/* <NavLink to='/balance-inquiry'><p className='flex items-center gap-2 justify-center'><GiCash /> <span> Balance Inquiry </span></p></NavLink> */}
             <NavLink to='/transaction-history' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
         </nav>
     );
