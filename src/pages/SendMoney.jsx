@@ -14,9 +14,9 @@ const SendMoney = () => {
   };
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-primary">
-      <div className="flex-col items-center text-white md:ml-[20%]">
-        <h1 className="font-bold text-5xl">Send Money Easily</h1>
-        <p className="font-semibold text-xl">Easy Money Transfer to others</p>
+      <div className="flex-col items-center text-white md:ml-[20%] space-y-12">
+        <h1 className="font-bold text-xl md:text-6xl">Send Money Easily</h1>
+        <p className="font-semibold  md:text-xl">Easy Money Transfer to others</p>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -66,7 +66,9 @@ const SendMoney = () => {
             )}
           </label>
 
-          <button className="btn bg-[#6F42C1] text-white w-full">Confirm</button>
+            <div className="flex justify-center">
+          <button className="btn bg-[#155263] text-white py-2 px-4 rounded-lg">Confirm</button>
+            </div>
           </div>
         </form>
       </div>
