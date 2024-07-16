@@ -21,7 +21,7 @@ const SendMoney = () => {
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
 
-          <div className="max-w-[75%] mx-auto">
+          <div className="max-w-[75%] mx-auto space-y-10 md:space-y-0">
           <label className="input flex items-center gap-2 mb-2 md:mb-4">
             <input
               type="number"
