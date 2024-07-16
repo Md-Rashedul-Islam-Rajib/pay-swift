@@ -17,8 +17,8 @@ const Login = () => {
       };
 
     return (
-        <section className='grid grid-cols-1 md:grid-cols-2 bg-[#115263] h-full'>
-            <div></div>
+        <section className=' bg-[#115263] h-full'>
+            
             <div >
             <form onSubmit={handleSubmit(onSubmit)}
             className='bg-slate-400 p-8 rounded-lg'
