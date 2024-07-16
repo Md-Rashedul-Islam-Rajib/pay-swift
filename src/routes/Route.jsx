@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Mainlayout from "../layouts/Mainlayout";
 import Home from "../pages/Home";
 import SendMoney from "../pages/SendMoney";
+import CashOut from "../pages/CashOut";
 
 
 export const router = createBrowserRouter([
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
         {
             path : '/send-money',
             element : <SendMoney />
+        },
+        {
+            path : '/cash-out',
+            element: <CashOut />
         }
 
     ]

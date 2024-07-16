@@ -16,8 +16,8 @@ const CashOut = () => {
     return (
         <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-[#ff9a3c]">
       <div className="flex-col items-center text-white md:ml-[20%] space-y-12">
-        <h1 className="font-bold text-xl md:text-6xl">Send Money Easily</h1>
-        <p className="font-semibold  md:text-xl">Easy Money Transfer to others</p>
+        <h1 className="font-bold text-xl md:text-6xl">Cash Out Easily</h1>
+        <p className="font-semibold  md:text-xl">Easy Cash Out to others With Minimum Charges</p>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
