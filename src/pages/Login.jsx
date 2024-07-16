@@ -17,7 +17,8 @@ const Login = () => {
       };
 
     return (
-        <section>
+        <section className='grid grid-cols-1 md:grid-cols-2'>
+            <div></div>
             <div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <p className="mb-2">Email</p>
