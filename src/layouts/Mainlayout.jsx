@@ -5,7 +5,7 @@ const Mainlayout = () => {
   return (
     <section>
 
-      <div className="hidden md:grid grid-cols-12 gap-6">
+      <div className="hidden md:grid grid-cols-12">
         <div className="col-span-2 bg-[#155263] h-screen">
           <Navbar />
         </div>
