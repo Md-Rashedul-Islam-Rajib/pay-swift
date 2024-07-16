@@ -16,7 +16,7 @@ const Navbar = () => {
             <NavLink to='/transaction-history' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
             <NavLink to='/transaction-management' ><p className='flex items-center gap-2 justify-center'><GiMoneyStack /> <span> Transaction Management </span></p></NavLink>
             <NavLink to='/transaction-history-agent' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
-            <NavLink to='/transaction-history-agent' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> User Management </span></p></NavLink>
+            <NavLink to='/user-management' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> User Management </span></p></NavLink>
             <NavLink to='/transaction-history-agent' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
         </nav>
     );
