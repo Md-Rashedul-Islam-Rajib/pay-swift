@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo-nav.png'
 import { GiCash, GiMoneyStack, GiPayMoney, GiReceiveMoney, GiTakeMyMoney } from 'react-icons/gi';
-import { FaMoneyBillTransfer } from 'react-icons/fa6';
+import { FaMoneyBillTransfer, FaUsers } from 'react-icons/fa6';
 const Navbar = () => {
     return (
         <nav className='hidden md:grid text-white space-y-6 text-center'>
@@ -16,7 +16,7 @@ const Navbar = () => {
             <NavLink to='/transaction-history' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
             <NavLink to='/transaction-management' ><p className='flex items-center gap-2 justify-center'><GiMoneyStack /> <span> Transaction Management </span></p></NavLink>
             <NavLink to='/transaction-history-agent' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
-            <NavLink to='/user-management' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> User Management </span></p></NavLink>
+            <NavLink to='/user-management' ><p className='flex items-center gap-2 justify-center'><FaUsers /> <span> User Management </span></p></NavLink>
             <NavLink to='/transaction-history-admin' ><p className='flex items-center gap-2 justify-center'><FaMoneyBillTransfer /> <span> Transaction History </span></p></NavLink>
         </nav>
     );
