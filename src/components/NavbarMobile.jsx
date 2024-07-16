@@ -111,7 +111,7 @@ const NavbarMobile = () => {
             <FaMoneyBillTransfer /> <span>Transaction History</span>
           </NavLink>
           <NavLink
-            to="/transaction-history-agent"
+            to="/user-management"
             onClick={handleMenuItemClick}
             className="block px-4 py-2 text-white hover:bg-gray-200 flex items-center gap-2 justify-center"
           >
