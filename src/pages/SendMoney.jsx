@@ -50,7 +50,7 @@ const SendMoney = () => {
               {showPassword ? <FaEyeSlash /> : <FaEye />}
             </span> */}
             {errors.amount && (
-              <span className="text-red-600 text-sm">Password is required</span>
+              <span className="text-red-600 text-sm">Amount is required</span>
             )}
           </label>
 
