@@ -1,22 +1,22 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
+import React from "react";
+import { useForm } from "react-hook-form";
+
 
 const CashIn = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-    const {
-        register,
-        handleSubmit,
-        formState: { errors },
-      } = useForm();
-    
-      const onSubmit = (data) => {
-        console.log(data);
-
-    return (
-        <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-[#ff7e67]">
-      <div className="flex-col items-center text-white md:ml-[20%] space-y-20">
-        <h1 className="font-bold text-xl md:text-6xl">Send Money Easily</h1>
-        <p className="font-semibold  md:text-xl">Easy Money Transfer to others</p>
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+  return (
+    <section className="grid grid-cols-1 md:grid-cols-2 items-center h-screen justify-center bg-[#ff7e67]">
+      <div className="flex-col items-center text-white md:ml-[20%] space-y-12">
+        <h1 className="font-bold text-xl md:text-6xl">Free Cash In</h1>
+        <p className="font-semibold  md:text-xl">Enjoy Unlimited Cash In Without any Fee</p>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -74,8 +74,6 @@ const CashIn = () => {
       </div>
     </section>
   );
-};
-    );
 };
 
 export default CashIn;
