@@ -17,7 +17,7 @@ const Mainlayout = () => {
 
          {/* // ? navbar for mobile  */}
 
-         <div className="md:hidden">
+         <div className="grid md:hidden">
             <NavbarMobile />
 
          </div>
