@@ -24,7 +24,7 @@ const Login = () => {
       }
 
     return (
-        <section className=' bg-[#115263] h-full'>
+        <section className=' bg-[#115263] h-screen w-screen'>
             
             <div className='flex justify-center items-center h-full'>
             <form onSubmit={handleSubmit(onSubmit)}
