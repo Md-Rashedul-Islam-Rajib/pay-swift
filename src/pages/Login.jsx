@@ -69,7 +69,7 @@ const Login = () => {
                   <p className="mb-2">Pin</p>
                 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">
                   <input
-                    type={showPassword ? "text" : "password"}
+                    type={showPassword ? "number" : "password"}
                     className="grow border-0 text-black py-2 px-4 rounded-lg"
                     placeholder="Password"
                     {...register("pin", { required: true })}
