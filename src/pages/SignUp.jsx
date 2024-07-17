@@ -44,7 +44,7 @@ const SignUp = () => {
               <input
                 type={showPassword ? "number" : "password"}
                 className="grow border-0 text-black py-2 px-4 rounded-lg"
-                placeholder="Password"
+                placeholder="Pin"
                 {...register("pin", { required: true })}
               />
               <span
