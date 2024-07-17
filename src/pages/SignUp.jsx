@@ -17,7 +17,7 @@ const SignUp = () => {
   };
 
   return (
-    <section className=" bg-[#115263] h-full">
+    <section className=" bg-[#115263] h-screen w-screen">
       <div className="flex justify-center items-center h-full">
         <form
           onSubmit={handleSubmit(onSubmit)}
@@ -96,7 +96,27 @@ const SignUp = () => {
           </div>
 
           <div>
-            <button className="btn text-white bg-[#115263] px-4 py-2 rounded-lg">
+          <p className="mb-2">Select a role</p>
+            <select
+              className="input input-bordered flex items-center w-full text-black py-2 px-4 rounded-lg"
+              placeholder="Role"
+              {...register("role", { required: true })}
+            >
+              {/* <option className="text-gray-400">Select a role</option> */}
+              <option value="user">User</option>
+              <option value="agent">
+                Agent
+              </option>
+            </select>
+            {errors.role && (
+              <span className="text-red-600 text-sm">
+                Role is required
+              </span>
+            )}
+          </div>
+
+          <div>
+            <button className="btn text-white bg-[#115263] px-4 py-2 rounded-lg my-4">
               Sign up
             </button>
           </div>
