@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
-
+import logo from '../assets/logo-nav.png'
 const SignUp = () => {
   const [showPassword, setShowPassword] = useState(false);
 
@@ -17,7 +17,11 @@ const SignUp = () => {
   };
 
   return (
-    <section className=" bg-[#115263] h-screen w-screen">
+    <section className=" bg-[#115263] h-full w-screen">
+      <div className="w-full flex justify-center pt-[5%]">
+        <img className="w-32" src={logo} alt="" />
+      </div>
+
       <div className="flex justify-center items-center h-full">
         <form
           onSubmit={handleSubmit(onSubmit)}
