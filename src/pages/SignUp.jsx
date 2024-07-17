@@ -97,7 +97,7 @@ const SignUp = () => {
 
           <div>
             <button className="btn text-white bg-[#115263] px-4 py-2 rounded-lg">
-              Log In
+              Sign up
             </button>
           </div>
           {/* <button className='text-[#155263] font-semibold my-4' type='button' onClick={toggleInput}>Use {showEmail ? "Mobile Number" : "Email"} Instead</button> */}
